@@ -1,14 +1,15 @@
-#ROS system
+# ROS system
 
-**RPI3** **ROS** **OpenCV** project 
+**RPI3** **ROS** **OpenCV** **project** 
 
 ## motion detection
 
-```bash
+```python
 git clone project.git
 ```
-and back to master workspace folder and run
-'catkin_make'
+and back to master workspace folder and run 
+
+`catkin_make`
 
 
 ## facial landmarks detection 
@@ -17,7 +18,7 @@ It is able to run in raspberry pi 3 with smooth 10fps
 ![alt text](https://github.com/choice17/ROS/blob/master/image_/rqt_graph.png)
 
 to run this node
-```bash
+```python
 git clone project.git
 ```
 
@@ -26,7 +27,7 @@ and back to master workspace folder and run
 
 `roscore`
 
-```bash
+```python
 rosrun cv_camera cv_camera_node
 rosrun facial_landmarks facial_landmarks_node.py
 rosrun agitr eye_pubvel

@@ -5,11 +5,14 @@
 ## motion detection
 
 ```python
-git clone project.git
+git clone <project.git>
 ```
 and back to master workspace folder and run 
 
-`catkin_make`
+`catkin_make` 
+
+To launch the ROS node 
+
 ```python
 rosrun cv_camera cv_camera_node
 rosrun motion_detect motion_detect_node.py
@@ -25,7 +28,7 @@ Here is the node connection of the project
 
 to run this node
 ```python
-git clone project.git
+git clone <project.git>
 ```
 
 and back to master workspace folder and run 
@@ -40,6 +43,13 @@ rosrun agitr eye_pubvel
 rosrun turtlesim turtlesim_node
 ```
 
-**Note** to use this project, you must install dlib into rpi3, please lookinto [dlib website](http://dlib.net/) for installation
+**Note** to use this project, you must install dlib into rpi3, 
+please lookinto [dlib website](http://dlib.net/) for installation 
+
+And also `git clone` the necessary dependency node in [ROS-WIKI](http://wiki.ros.org/)
+
+[image_common](http://wiki.ros.org/image_common)
+[cv_camera](http://wiki.ros.org/cv_camera)
+
 
 [Video demo](https://www.youtube.com/watch?v=gxUL3YSi55M&feature=youtu.be)

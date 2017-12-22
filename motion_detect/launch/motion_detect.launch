@@ -1,0 +1,4 @@
+<launch>
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" />
+  <node name="motion_detect" pkg="motiondetect" type="motiondetect_node" />
+</launch>
